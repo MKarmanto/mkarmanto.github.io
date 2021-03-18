@@ -20,6 +20,7 @@ footer {
 .navbar {
 	padding-left: 0;
 	padding-right: 0;
+	overflow: auto;
 }
 .border {
     border: 1px solid gray !important;
@@ -47,6 +48,7 @@ a:hover {
 	margin-bottom: 10px;
 	padding-left: 10px;
 	padding-top: 10px;
+	overflow: auto;
 }
 .guildbannertext {
 	padding: 10px;
