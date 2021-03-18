@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font: 15px Arial sans-serif;
+	background-color: #001a33;
+	color: white;
+}
+header {
+	color: white;
+	background-color: black;
+	margin-bottom: 5px;
+}
+footer {
+	color: white;
+	background-color: black;
+	margin-bottom: 5px;
+}
+.navbar {
+	padding-left: 0;
+	padding-right: 0;
+}
+.border {
+    border: 1px solid gray !important;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: gray;
+	transition: 2s;
+}
+.full-width {
+    width: 100%;
+}
+.center {
+    text-align: center;
+}
+.big-picture {
+	height: 400px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.guild-info {
+	font-size: 20px;
+	height: 600px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.banner {
+	height: 150px;	
+	background-image: url('images/org2.png');
+	background-size: cover;
+}
+.wcl-banner {
+	height: 99px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-image: url('images/wclbanner2.png');
+	background-size: cover;
+
+}
+.mainbox {
+	background-color: #050505;
+	padding-top: 10px;
+	
+}
+.recruitment {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.recruitment-text {
+	margin: 10px;
+}
+.class-icon {
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	background: #d6d6d8;
+	border: 1px solid black !important;
+}
+.left {
+	float: left;
+}
+.class-recruitment {
+	margin: 10px;
+}
+.wcl {
+	height: 600px;
+}
+.contact {
+	height: 800px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.discord {
+	height: 150px;
+}
+.gallery {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
