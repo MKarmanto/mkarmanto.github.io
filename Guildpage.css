@@ -2,9 +2,10 @@
 	box-sizing: border-box;
 }
 body {
-	font: 15px Arial sans-serif;
+	font: 15px;
 	background-color: #001a33;
 	color: white;
+	font-family: 'Playfair Display', serif;
 }
 header {
 	color: white;
@@ -27,8 +28,7 @@ a {
 	color: white;
 }
 a:hover {
-	color: gray;
-	transition: 2s;
+	color: red;
 }
 .full-width {
     width: 100%;
@@ -47,6 +47,9 @@ a:hover {
 	margin-bottom: 10px;
 	padding-left: 10px;
 	padding-top: 10px;
+}
+.guildbannertext {
+	padding: 10px;
 }
 .banner {
 	height: 150px;	
@@ -76,29 +79,33 @@ a:hover {
 }
 .recruitment-text {
 	margin: 10px;
+	height: 700px;
+	overflow: auto;
 }
 .class-icon {
-	width: 100px;
-	height: 100px;
-	margin-right: 10px;
-	background: #d6d6d8;
-	border: 1px solid black !important;
+	max-height: 100%;
+	max-width: 100%;
+	width:150px;
+	height:150px;
+	background-size: cover;
 }
 .left {
 	float: left;
 }
 .class-recruitment {
 	margin: 10px;
+	height: 200px;
 }
 .wcl {
 	height: 600px;
 }
 .contact {
-	height: 800px;
+	height: 1080px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-left: 10px;
 	padding-top: 10px;
+	overflow: auto;
 }
 .discord {
 	height: 150px;
