@@ -7,11 +7,6 @@ body {
 	color: white;
 	font-family: 'Playfair Display', serif;
 }
-@media only screen and (max-width: 600px) {
-	body {
-		font-size: 70%;
-	}
-}
 header {
 	color: white;
 	background-color: black;
@@ -21,6 +16,14 @@ footer {
 	color: white;
 	background-color: black;
 	margin-bottom: 5px;
+}
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 70%;
+	}
+	header {
+		font-size: 70%;
+	}
 }
 .navbar {
 	padding-left: 0;
