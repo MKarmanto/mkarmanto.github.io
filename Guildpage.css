@@ -11,6 +11,7 @@ header {
 	color: white;
 	background-color: black;
 	margin-bottom: 5px;
+	font-size: 15px;
 }
 footer {
 	color: white;
@@ -23,6 +24,9 @@ footer {
 	}
 	header {
 		font-size: 70%;
+	}
+	.navbar-brand {
+		font-size: 100%;
 	}
 }
 .navbar {
